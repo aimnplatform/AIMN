@@ -117,7 +117,7 @@ public:
         pchMessageStart[1] = 0xc4;
         pchMessageStart[2] = 0xfd;
         pchMessageStart[3] = 0xe9;
-        vAlertPubKey = ParseHex("04659d53bd8f7ad9d34a17281febedac754e5a6eb136142d3a9c6c0ea21b6ed7498ceb3d872eed00ae755f7aeadaeb1d9ab5e1a8f1e7efcd0ddcb39d4623c12790");
+        vAlertPubKey = ParseHex("047a2495b915a1c1c0d38bb3d24ed4586ebc401fdbe6c3785db792da219ac73d8a942fd0d44e38156588ead750a667a3fb184e839f3fa9a020cf9f49e5f80c5bda");
         nDefaultPort = 11766;
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         nMaxReorganizationDepth = 100;
@@ -217,7 +217,7 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "04659d53bd8f7ad9d34a17281febedac754e5a6eb136142d3a9c6c0ea21b6ed7498ceb3d872eed00ae755f7aeadaeb1d9ab5e1a8f1e7efcd0ddcb39d4623c12790";
+        strSporkKey = "047a2495b915a1c1c0d38bb3d24ed4586ebc401fdbe6c3785db792da219ac73d8a942fd0d44e38156588ead750a667a3fb184e839f3fa9a020cf9f49e5f80c5bda";
         strObfuscationPoolDummyAddress = "PCYiHgGJJ6xGHqivmdZrYjRnhaYf6AJ2Mp";
 
         /** Zerocoin */
@@ -261,7 +261,7 @@ public:
         pchMessageStart[1] = 0x76;
         pchMessageStart[2] = 0x65;
         pchMessageStart[3] = 0xba;
-        vAlertPubKey = ParseHex("04d7e13bc896eb07e2db2d7272f5ddfaedfb64b8ed4caa4d917d6e0781b59ca44f8b5d40995622008e40707b47687eebee11cbe3bbaf2348622cc271c7f0d0bd0a");
+        vAlertPubKey = ParseHex("04ef3f436e6a0bf0bdf8bea0d6e8a8b4da716b789e8be66c17338e45d9a26dbe13e9f0135ed52c2549ac83a8dd9c1f1ff0a28a7dd1a1bc7c463562f1bd9f65443c");
         nDefaultPort = 11773;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
@@ -310,7 +310,7 @@ public:
         fTestnetToBeDeprecatedFieldRPC = true;
 
         nPoolMaxTransactions = 2;
-        strSporkKey = "040d2595becca91020213bf94735fa26bb92a206aa21be45b0e95f205ff8588ecb9398c5c7d8cfaf78149d230b8dc066c3660573ff2104dac98e43283d6dc882d6"; 
+        strSporkKey = "04ef3f436e6a0bf0bdf8bea0d6e8a8b4da716b789e8be66c17338e45d9a26dbe13e9f0135ed52c2549ac83a8dd9c1f1ff0a28a7dd1a1bc7c463562f1bd9f65443c"; 
         strObfuscationPoolDummyAddress = "PCYiHgGJJ6xGHqivmdZrYjRnhaYf6AJ2Mp";
         nBudgetFeeConfirmations = 3; // Number of confirmations for the finalization fee. We have to make this very short
                                      // here because we only have a 8 block finalization window on testnet
@@ -373,7 +373,7 @@ public:
         //     "PrivateKey": "923EhWh2bJHynX6d4Tqt2Q75bhTDCT1b4kff3qzDKDZHZ6pkQs7",
         //     "PublicKey": "04866dc02c998b7e1ab16fe14e0d86554595da90c36acb706a4d763b58ed0edb1f82c87e3ced065c5b299b26e12496956b9e5f9f19aa008b5c46229b15477c875a"
         // }
-        strSporkKey = "04866dc02c998b7e1ab16fe14e0d86554595da90c36acb706a4d763b58ed0edb1f82c87e3ced065c5b299b26e12496956b9e5f9f19aa008b5c46229b15477c875a";
+        strSporkKey = "04ef3f436e6a0bf0bdf8bea0d6e8a8b4da716b789e8be66c17338e45d9a26dbe13e9f0135ed52c2549ac83a8dd9c1f1ff0a28a7dd1a1bc7c463562f1bd9f65443c";
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
