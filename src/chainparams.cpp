@@ -65,7 +65,7 @@ static const Checkpoints::CCheckpointData data = {
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-    boost::assign::map_list_of(0, uint256("0x"));
+    boost::assign::map_list_of(0, uint256("0x12fe4b9567feb1fe7fee36129bdd3ea84ce0a89951928e7f04198d46e9dc95c2"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1504595227,
@@ -73,7 +73,7 @@ static const Checkpoints::CCheckpointData dataTestnet = {
     250};
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
-    boost::assign::map_list_of(0, uint256("0x"));
+    boost::assign::map_list_of(0, uint256("0x12fe4b9567feb1fe7fee36129bdd3ea84ce0a89951928e7f04198d46e9dc95c2"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
     1504595227,
@@ -160,9 +160,9 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1505224800;
         genesis.nBits = 0x207fffff;;
-        genesis.nNonce = 9991;
+        genesis.nNonce = 9996;
 	// Genesis code generator
-if (true && genesis.GetHash() != hashGenesisBlock)
+/*if (true && genesis.GetHash() != hashGenesisBlock)
             {
             printf("Searching for genesis block...\n");
             uint256 hashTarget = uint256().SetCompact(genesis.nBits);
@@ -188,12 +188,12 @@ if (true && genesis.GetHash() != hashGenesisBlock)
             printf("genesis.nNonce = %u \n", genesis.nNonce);
             printf("genesis.gethash = %s\n", genesis.GetHash().ToString().c_str());
             printf("genesis.hashMerkleRoot = %s \n", genesis.hashMerkleRoot.ToString().c_str());
-        }
+        }*/
 //end of Genesis code generator
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x894177137a45952cfed89dd395e7fc85208a53548f34defc7c1a85cb0736b3a3"));
+        assert(hashGenesisBlock == uint256("0x12fe4b9567feb1fe7fee36129bdd3ea84ce0a89951928e7f04198d46e9dc95c2"));
+        assert(genesis.hashMerkleRoot == uint256("0x25ea750ea71f08ff9e654ad8b5457109bcdd01f915721390b95f253aba43e35f"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -280,10 +280,10 @@ public:
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1505224800;
-        genesis.nNonce = 12346;
+        genesis.nNonce = 9996;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0xfab709a0c107fe7cf6b0d552c514ef3228f9e0f107cd3c9b2fcea96512342cd8"));
+        assert(hashGenesisBlock == uint256("0x12fe4b9567feb1fe7fee36129bdd3ea84ce0a89951928e7f04198d46e9dc95c2"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -346,7 +346,7 @@ public:
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1505224800;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 9991;
+        genesis.nNonce = 9996;
         nMaturity = 0;
         nLastPOWBlock = 999999999; // PoS complicates Regtest because of timing issues
         nZerocoinLastOldParams = 499;
@@ -354,7 +354,7 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 11773;
-        assert(hashGenesisBlock == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x12fe4b9567feb1fe7fee36129bdd3ea84ce0a89951928e7f04198d46e9dc95c2"));
 
         bech32_hrp = "aimnt";
 
