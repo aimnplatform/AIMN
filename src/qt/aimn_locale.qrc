@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/aimn_bg.qm</file>
+        <file alias="ca">locale/aimn_ca.qm</file>
+        <file alias="cs">locale/aimn_cs.qm</file>
+        <file alias="da">locale/aimn_da.qm</file>
+        <file alias="de">locale/aimn_de.qm</file>
+        <file alias="en">locale/aimn_en.qm</file>
+        <file alias="en_US">locale/aimn_en_US.qm</file>
+        <file alias="es">locale/aimn_es.qm</file>
+        <file alias="fi">locale/aimn_fi.qm</file>
+        <file alias="fr_FR">locale/aimn_fr_FR.qm</file>
+        <file alias="hr">locale/aimn_hr.qm</file>
+        <file alias="it">locale/aimn_it.qm</file>
+        <file alias="ja">locale/aimn_ja.qm</file>
+        <file alias="ko_KR">locale/aimn_ko_KR.qm</file>
+        <file alias="nl">locale/aimn_nl.qm</file>
+        <file alias="pl">locale/aimn_pl.qm</file>
+        <file alias="pt">locale/aimn_pt.qm</file>
+        <file alias="pt_BR">locale/aimn_pt_BR.qm</file>
+        <file alias="ro_RO">locale/aimn_ro_RO.qm</file>
+        <file alias="ru">locale/aimn_ru.qm</file>
+        <file alias="sk">locale/aimn_sk.qm</file>
+        <file alias="sv">locale/aimn_sv.qm</file>
+        <file alias="tr">locale/aimn_tr.qm</file>
+        <file alias="uk">locale/aimn_uk.qm</file>
+        <file alias="zh_CN">locale/aimn_zh_CN.qm</file>
+        <file alias="zh_TW">locale/aimn_zh_TW.qm</file>
+    </qresource>
+</RCC>

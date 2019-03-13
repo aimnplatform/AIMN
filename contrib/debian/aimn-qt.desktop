@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Aimn
+Comment=Aimn P2P Cryptocurrency
+Comment[fr]=Aimn, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Aimn, eşten eşe kriptografik sanal para birimi
+Exec=aimn-qt %u
+Terminal=false
+Type=Application
+Icon=aimn128
+MimeType=x-scheme-handler/aimn;
+Categories=Office;Finance;

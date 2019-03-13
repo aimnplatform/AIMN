@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2019 The Phore Developers
+// Copyright (c) 2019 The Aimn Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -178,7 +178,7 @@ QVariant ProposalTableModel::data(const QModelIndex &index, int role) const
         case VotesNeeded:
             return QString("%1").arg(rec->votesNeeded);
         case Amount:
-            return BitcoinUnits::format(BitcoinUnits::PHR, rec->amount);
+            return BitcoinUnits::format(BitcoinUnits::AIMN, rec->amount);
         }
         break;
     case Qt::EditRole:
