@@ -158,7 +158,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1505224800;
+        genesis.nTime = 1552755911;
         genesis.nBits = 0x207fffff;;
         genesis.nNonce = 9996;
 	// Genesis code generator
@@ -279,7 +279,7 @@ public:
         nZerocoinLastOldParams = 50000;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1505224800;
+        genesis.nTime = 1552755911;
         genesis.nNonce = 9996;
 
         hashGenesisBlock = genesis.GetHash();
@@ -344,7 +344,7 @@ public:
         nTargetTimespan = 24 * 60 * 60; // Aimn: 1 day
         nTargetSpacing = 1 * 60;        // Aimn: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1505224800;
+        genesis.nTime = 1552755911;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 9996;
         nMaturity = 0;
